@@ -71,10 +71,14 @@ rm -rf terraform.tfstate*
 - Re-iterate what we have learned in this section
 - Learned about Important Terraform Commands
   - terraform init
+  - terraform init -- upgrade -> For updating module changes locally for testing
   - terraform validate
   - terraform plan
   - terraform apply
-  - terraform destroy     
+  - terraform destroy
+  - terraform apply -auto-approve
+  - terraform destroy -auto-approve
+  - terraform -init
 
 
 
